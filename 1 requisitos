@@ -1,0 +1,8 @@
+O sistema deve permitir autenticação de usuários.
+O sistema deve permitir cadastrar livros novos, com IDs diferentes.
+O sistema deve permitir consultar livros adicionados ao sistema.
+O sistema deve permitir editar livros.
+O sistema deve permitir excluir livros.
+O sistema deve registrar empréstimos.
+O sistema deve registrar devoluções.
+O sistema deve gerar relatórios de empréstimos, com (partes importantes).
