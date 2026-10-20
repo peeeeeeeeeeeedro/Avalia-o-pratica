@@ -1,0 +1,22 @@
+CREATE TABLE usuarios (
+id_usario INT AUTO_INCREMENT PRIMARY KEY
+nome VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL,
+senha VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE livros (
+id_livros INT AUTO_INCREMENT PRIMARY KEY,
+titulo VARCHAR(255) NOT NULL,
+autor VARCHAR(255) NOT NULL,
+categoria VARCHAR(255) NOT NULL,
+quantidade VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE emprestimo (
+id_emprestimo INT AUTO_INCREMENT PRIMARY KEY,
+data_emprestimo DATE NOT NULL,
+data_devolução DATE NOT NULL,
+id_usuario FOREIGN KEY,
+id_livro FOREIGN KEY
+);
