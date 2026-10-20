@@ -1,0 +1,20 @@
+##Usuários
+INSERT INTO usuarios (nome, email, senha) 
+VALUES 
+(Jorge Santos, jorsan@email.com, 12345),
+(Sabrina Machado, machadosabrina@email.com, 12345),
+(Bianca Gusmão, biagusmao@email.com, 12345);
+
+##Livros
+INSERT INTO livros (titulo, autor, categoria) 
+VALUES 
+(Dom Casmurro, Machado de Assis, Literatura Brasileira)
+(O Alquimista, Paulo Coelho, Literatura Brasileira)
+(Sapiens: Uma Breve História da Humanidade, Yuval Noah Harari, História)
+(Hábitos Atômicos, James Clear, Autoajuda)
+(A Garota no Trem, Paula Hawkins, Suspense)
+
+##Empréstimo
+INSERT INTO emprestimo (data_emprestimo, data_devolução, id_usuario, id_livro)
+VALUES
+()
