@@ -6,7 +6,7 @@ Simulação de Avaliação Prática – Sistema de Biblioteca Escolar
 Uma escola precisa informatizar sua biblioteca para controlar livros, usuários e empréstimos. Sua equipe deverá desenvolver um sistema completo contendo frontend, backend, banco de dados e documentação técnica.
 # Entregas Obrigatórias
 
----
+
 ## 1. Lista de Requisitos Funcionais
 
 **Tempo estimado:** 10 minutos
