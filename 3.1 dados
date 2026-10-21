@@ -17,4 +17,4 @@ VALUES
 ##Empréstimo
 INSERT INTO emprestimo (data_emprestimo, data_devolução, id_usuario, id_livro)
 VALUES
-()
+() nesse caso eu iria precisar dos IDs autoincrement
